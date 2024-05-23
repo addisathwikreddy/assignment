@@ -1,0 +1,183 @@
+*{
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.sleeve{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.sleeve2{
+    font-weight: normal;
+    text-align: center;
+}
+.Mac-App-Store-container{
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.Buy-container{
+    margin-left: 30px;
+    text-align: center;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+    padding: 13px;
+    border-radius: 16px;
+    width: 300px;
+    border: 1 solid #e5e7eb;
+    background-color: #e9f0f4;
+    box-sizing: border-box;
+    padding-top: 20px;
+    
+}
+
+.Buy-container:hover{
+    margin-left: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    padding: 13px;
+    border-radius: 16px;
+    width: 300px;
+    border: 1 solid #e5e7eb;
+    background-color: rgba(59,130,246,.5);
+    box-sizing: border-box;
+    padding-top: 20px;
+    transition-duration: 1s;
+    
+}
+
+.app-store-heading{
+    font-size: 23px;
+}
+.buy-heading{
+    font-size: 23px;
+    display: inline;
+}
+.logo{
+    font-size: 30px;
+    margin-right: 7px;
+}
+.mac-buy-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.buy-span{
+    margin-left: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.ShelfCallout-img{
+    display: inline;
+    margin-right: 15px;
+}
+.main-ShelfCallout-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ShelfCallout-container{
+    padding: 7px;
+    background-color: #e5e7eb;
+    border-radius: 50px;
+    width: 800px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+    text-align: center;
+    
+}
+.new-text{
+    color: rgb(13 158 255);
+}
+.new-text-span{
+    background-color: rgb(13 158 255);
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+    color: white;
+}
+.img1{
+    width: 85vw;
+}
+.changeit-and-shareable-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.change-it-up-inner-container{
+    width: 400px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(217, 237, 250);
+    border-radius: 10px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.sharable-iner-container{
+    width: 400px;
+    text-align: left;
+    padding: 10px;
+    background-color: rgb(217, 237, 250);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.customization-text{
+    margin-top: 20px;
+    color: rgb(120 58 245);
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.customization-heading{
+    font-weight: bold;
+}
+.customization-para{
+    font-weight: 500;
+    font-size: large;
+
+}
+.integrations{
+    margin-top: 20px;
+    color: rgb(221 49 7);
+    margin-bottom: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.scorobble-heading{
+    font-weight: bold;
+}
